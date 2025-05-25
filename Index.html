@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria | pizza Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Pizza<span>Ria</span></div>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger" id="hamburger">&#9776;</div>
+    </header>
+    <main id="home" class="hero">
+        <section class="hero-text">
+            <h1>Delicious Pizza, Fast Delivery</h1>
+            <p>Experience the taste of Italy with our freshly baked pizzas made with love.</p>
+            <button>Order Now</button>
+        </section>
+
+        <section class="hero-image">
+            <div class="circle-bg"></div>
+            <img src="src/pizza.webp" alt="Pizza" class="pizza-img" />
+        </section>
+    </main>
+
+    <section class="features-section">
+        <div class="feature-card">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Free Delivery</h3>
+            <p>Get your pizza delivered hot and fast to your doorstep — no extra charge.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fa-solid fa-pizza-slice"></i>
+            <h3>Quality Ingredients</h3>
+            <p>We use only the freshest ingredients to craft every slice of perfection.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Fast Service</h3>
+            <p>Order and enjoy — we promise quick service and satisfaction every time.</p>
+        </div>
+    </section>
+
+    <section class="cover-section">
+        <div class="cover-content">
+            <h2>Welcome to PizzaTown</h2>
+            <p>Experience the taste of authentic Italian pizza, made with love and fresh ingredients.</p>
+            <a href="#menu" class="cover-btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="pizza-menu">
+        <h2 class="section-title">Our Best Pizzas</h2>
+        <div class="pizza-cards">
+            <div class="pizza-card hidden">
+                <img src="src/pizza4.jpg" alt="Margherita Pizza" />
+                <h3>Margherita</h3>
+                <p>Fresh tomatoes, mozzarella, and basil on a classic crust.</p>
+                <span class="price">$8.99</span>
+            </div>
+
+            <div class="pizza-card hidden">
+                <img src="src/pizza1.webp" alt="Pepperoni Pizza" />
+                <h3>Pepperoni</h3>
+                <p>Loaded with pepperoni and cheese on a crispy base.</p>
+                <span class="price">$10.99</span>
+            </div>
+
+            <div class="pizza-card hidden">
+                <img src="src/pizza3.webp" alt="Veggie Pizza" />
+                <h3>Veggie</h3>
+                <p>A colorful mix of peppers, olives, mushrooms, and onions.</p>
+                <span class="price">$9.49</span>
+            </div>
+
+            <div class="pizza-card hidden ">
+                <img src="src/pizza2.avif" alt="BBQ Chicken Pizza" />
+                <h3>BBQ Chicken</h3>
+                <p>Grilled chicken, BBQ sauce, red onions, and cheese.</p>
+                <span class="price">$11.99</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-reviews">
+        <div class="map-container find-us-section animate-on-scroll">
+            <h2>Find Us Here</h2>
+            <!-- Replace the src with your restaurant's Google Maps embed link -->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086423453861!2d-122.41941508468184!3d37.77492927975911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c4b0d3bdf%3A0xf7b3c60a6c6b1ff3!2sYour%20Restaurant%20Name!5e0!3m2!1sen!2sus!4v1617689123456!5m2!1sen!2sus"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="reviews-container reviews-section animate-on-scroll">
+            <h2>Client Reviews</h2>
+            <div class="review">
+                <p>“Absolutely loved the Margherita pizza! Fresh and tasty.”</p>
+                <span>- Sarah J.</span>
+            </div>
+            <div class="review">
+                <p>“Fast delivery and hot pizza. Highly recommend!”</p>
+                <span>- Michael R.</span>
+            </div>
+            <div class="review">
+                <p>“Great customer service and delicious BBQ Chicken pizza.”</p>
+                <span>- Emma L.</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section animate-on-scroll">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="src/about1.jpg" alt="About our pizza">
+            </div>
+            <div class="about-text">
+                <h2>About Our Pizza</h2>
+                <p>
+                    At <strong>PizzaRia</strong>, we believe in the power of fresh ingredients, authentic recipes,
+                    and a passion for flavor.
+                    Our chefs craft each pizza with love and dedication — from hand-tossed dough to our signature sauces
+                    and toppings.
+                </p>
+                <p>
+                    Whether you're dining in, ordering online, or grabbing a slice on the go, we promise to deliver an
+                    unforgettable experience every time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section animate-on-scroll">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form class="contact-form" action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Our Info</h3>
+                <p><strong>Address:</strong> 123 Pizza Street, Flavor Town</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Email:</strong> contact@pizzaria.com</p>
+                <p><strong>Hours:</strong> Mon-Sun 11:00 AM – 11:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>PizzaRia</h3>
+                <p>Delicious pizza made with love, fresh ingredients, and fast delivery every time.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Main Street, Pizza City</p>
+                <p><i class="fa-solid fa-phone"></i> +212 612-669309</p>
+                <p><i class="fa-solid fa-envelope"></i> contact@pizzaria.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Opening Hours</h4>
+                <p>Mon – Fri: 10:00 AM – 11:00 PM</p>
+                <p>Sat – Sun: 11:00 AM – 12:00 AM</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 PizzaTown. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
